@@ -1,0 +1,79 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema",
+
+  "definitions": {
+    "phone": {
+      "type": "string",
+      "pattern": "^\\+?\\d{6,15}$"
+    }
+  },
+
+  "properties": {
+    "employment": {
+      "type": "array",
+      "additionalItems": false,
+      "items": {
+        "type": "object",
+        "additionalProperties": true,
+        "properties": {
+          "entity": {
+            "type": ["string", "object"],
+            "description": "",
+            "additionalProperties": true,
+            "properties": {
+              "name": {
+                "type": "string"
+              },
+              "location": {
+                "type": "string"
+              },
+              "phone": {
+                "$ref": "#/definitions/phone"
+              },
+              "web": {
+                "type": "string",
+                "format": "uri"
+              }
+            }
+          },
+          "title": {
+            "type": "string"
+          }
+          
+        }
+      }
+    },
+    "education": {
+      "type": "array"
+    },
+    "skills": {
+      "type": ["array", "object"]
+    },
+    "projects": {
+      "type": "array",
+      "additionalItems": false,
+      "items": {
+        "type": "object",
+        "additionalProperties": true,
+        "properties": {
+          "title": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          },
+          "tools": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "url": {
+            "type": "string",
+            "format": "uri"
+          }
+        }
+      }
+    }
+  }
+}

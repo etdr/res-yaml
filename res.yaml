@@ -1,0 +1,144 @@
+---
+title: My Resume
+author: Eli T. Drumm
+---
+
+contact:
+  email: eli@eli.td
+  phone: "+1 808 200 8440"
+  web: eli.td
+  profiles:
+    - site: GitHub
+      username: etdr
+      url: https://github.com/etdr
+    - site: LinkedIn
+      username: etdru
+      url: https://www.linkedin.com/in/etdru/
+
+statement: |
+  I am writing this.
+
+skills:
+  technical:
+  functional:
+
+projects:
+  - title: a galactic predictor
+    description: classifier for galaxy morphology based on astronomical data
+    tools:
+      - logistic regression
+      - random forests
+      - neural networks
+    url: x.eli.td/gmorph
+  
+  - title: Eksward
+    description: a minimalist crossword puzzle solving tool
+    tools:
+      - React
+      - Redux
+      - custom styling
+    url: exsward.herokuapp.com
+
+  - title: Vloeistof
+    description: a mixed drinks manager
+    tools:
+      - Angular
+      - Material Design
+    url: vloeistof.herokuapp.com
+
+education:
+  - credential: Accredited Certification
+    subject: Data Science
+    school: Metis
+    date: "2020"
+    location: Chicago, IL
+
+  - credential: Certification
+    subject: JavaScript
+    school: Eleven Fifty Academy
+    date: "2019"
+    location: Indianapolis, IN
+
+  - credential: Master of Science
+    subject:
+      primary:
+        subject: Logic
+        concentration: Computation
+    school: University of Amsterdam
+    date: "2016"
+    location: "Amsterdam, Netherlands"
+
+  - credential: Bachelor of Arts
+    subject:
+      primary:
+        - subject: Cognitive Science
+          concentration: Language
+          type: major
+        - subject: Philosophy
+          type: major
+      secondary:
+        - subject: History and Philosophy of Science
+          concentration: Computation
+          type: area certificate
+      
+
+employment:
+  - company: OneAmerica
+    title: Application Developer Consultant
+    dates:
+      start: "2021"
+      end: "2021"
+    summary: |
+      Brought on to help bring a team up to date with new technology and to assist maintaining an older application written in older frameworks.
+    details:
+      - Picked up frameworks on the job while learning a complex code base written in those frameworks (Backbone, Marionette) without extensive training or detailed instruction.
+      - Learned and participated in a modern Agile software development team within a large IT department at a sizeable company.
+      - Gained self-taught hands-on experience working with Google Tag Manager and Analytics.
+    # supervisor:
+    # url:
+    # contact:
+    #   phane:
+
+  - company: Eleven Fifty Academy
+    title: Web Development Instructor
+    dates:
+      start: "2020"
+      end: "2021"
+    summary: |
+      Teaching part-time classes how to build full-stack applications using JavaScript, HTML/CSS, React, PostgreSQL, and more.
+    details:
+      - Responsible for educating and managing cohorts of six to thirty students, currently online and eventually in person.
+      - Teaching solo and alongside co-instructors, adapting to various demographics and learning styles.
+      - Combining multiple pedagogical methods and models to teach an inherently in-flux curriculum.
+      - Reworking parts of Eleven Fifty’s web dev curriculum for future classes in collaboration with fellow instructors.
+      - Directly hired based on exceptional performance in this selfsame bootcamp program in 2019 (see above).
+      - Member of EFA’s Strategic Change Committee, formed to promote positive change within the organization.
+    
+    - company: Clinical Architecture
+      title: SIFT Engineer
+      dates:
+        start: "2017"
+        end: "2018"
+      summary: |
+        Hired by the CEO to work with the semantic interpretation of free text (SIFT) natural language processing tool.
+      details:
+        - Designed complex SIFT arrays capable of using advanced text analytics to identify, interpret, and analyze patterns, derive meaningful insights, simplify healthcare terminology governance, and enhance the quality and usability of clinical information.
+        - Rapidly overcame initial SIFT learning curve and proprietary software training to collaborate with small teams of programmers and data scientists and support the design of complex text searches for medical documents.
+        - Created Python scripts and designed complex SIFT arrays to parse and align unstructured text within ICD-10, SNOMED-CT, and medical information catalogs to achieve correlation to established medical terminology targets and enable healthcare providers, systems, and integrated delivery networks to detect critical patient information.
+        - Acquired hands-on experience mapping, modeling, and normalizing large data volumes, drawing meaningful conclusions, and strengthening clinical decision-making processes.
+
+references:
+  - name: Jon Huer
+    relationship:
+    email:
+    phone:
+
+  - name: Adam Jayne
+    relationship:
+    email:
+    phone:
+
+  - name: Danielle Geiser
+    relationship:
+    email:
+    phone:
